@@ -41,8 +41,12 @@ public class SwaggerConfig {
                         )
                 )
                 .servers(List.of(
-                        new Server().url("https://finance-backend-gi1t.onrender.com").description("Live server"),
-                        new Server().url("http://localhost:8080").description("Local development")
+                        new Server()
+                                .url("https://finance-backend-gi1t.onrender.com")
+                                .description("Live server"),
+                        new Server()
+                                .url("http://localhost:8080")
+                                .description("Local development")
                 ))
                 .addSecurityItem(new SecurityRequirement().addList("Bearer Authentication"))
                 .components(new Components()
