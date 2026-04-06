@@ -30,9 +30,9 @@ public class SwaggerConfig {
                                         "## Default users\n" +
                                         "| Email | Password | Role |\n" +
                                         "|---|---|---|\n" +
-                                        "| admin@financeapp.com | admin123 | ADMIN |\n" +
-                                        "| analyst@financeapp.com | analyst123 | ANALYST |\n" +
-                                        "| viewer@financeapp.com | viewer123 | VIEWER |"
+                                        "| admin@finance.com | admin123 | ADMIN |\n" +
+                                        "| analyst@finance.com | analyst123 | ANALYST |\n" +
+                                        "| viewer@finance.com | viewer123 | VIEWER |"
                         )
                         .version("1.0.0")
                         .contact(new Contact()
@@ -41,6 +41,7 @@ public class SwaggerConfig {
                         )
                 )
                 .servers(List.of(
+                        new Server().url("https://finance-backend-gi1t.onrender.com").description("Live server"),
                         new Server().url("http://localhost:8080").description("Local development")
                 ))
                 .addSecurityItem(new SecurityRequirement().addList("Bearer Authentication"))
