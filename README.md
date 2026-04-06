@@ -107,7 +107,7 @@ No token needed for this one.
 
 ```json
 {
-  "email": "harsh@financeapp.com",
+  "email": "admin@financeapp.com",
   "password": "admin123"
 }
 ```
