@@ -17,7 +17,7 @@ A backend system I built for a finance dashboard. It handles user management, fi
 
 ## Tech used
 
-- Java 21 + Spring Boot 3.3.4
+- Java 17 + Spring Boot 3.3.4
 - MySQL 8
 - Spring Security with JWT
 - Spring Data JPA
@@ -30,7 +30,7 @@ A backend system I built for a finance dashboard. It handles user management, fi
 ## How to run it
 
 ### What you need first
-- Java 21 installed
+- Java 17 installed
 - MySQL running locally
 - Maven
 

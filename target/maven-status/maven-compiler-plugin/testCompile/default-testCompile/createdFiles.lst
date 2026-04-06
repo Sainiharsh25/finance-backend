@@ -1,0 +1,3 @@
+com\finance\backend\service\UserServiceTest.class
+com\finance\backend\controller\AuthControllerTest.class
+com\finance\backend\service\TransactionServiceTest.class
