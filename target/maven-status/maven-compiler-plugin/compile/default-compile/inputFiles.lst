@@ -23,6 +23,7 @@ C:\Users\Harsh\Downloads\finance-backend\src\main\java\com\finance\backend\util\
 C:\Users\Harsh\Downloads\finance-backend\src\main\java\com\finance\backend\exception\ResourceNotFoundException.java
 C:\Users\Harsh\Downloads\finance-backend\src\main\java\com\finance\backend\dto\response\AuthResponse.java
 C:\Users\Harsh\Downloads\finance-backend\src\main\java\com\finance\backend\service\UserService.java
+C:\Users\Harsh\Downloads\finance-backend\src\main\java\com\finance\backend\config\CorsConfig.java
 C:\Users\Harsh\Downloads\finance-backend\src\main\java\com\finance\backend\service\impl\UserDetailsServiceImpl.java
 C:\Users\Harsh\Downloads\finance-backend\src\main\java\com\finance\backend\controller\DashboardController.java
 C:\Users\Harsh\Downloads\finance-backend\src\main\java\com\finance\backend\dto\response\UserResponse.java
