@@ -42,7 +42,7 @@ public class SwaggerConfig {
                 )
                 .servers(List.of(
                         new Server()
-                                .url("https://finance-backend-gi1t.onrender.com")
+                                .url("https://finance-backend-cq98.onrender.com")
                                 .description("Live server"),
                         new Server()
                                 .url("http://localhost:8080")
