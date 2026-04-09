@@ -6,6 +6,7 @@ com\finance\backend\config\DataSeeder.class
 com\finance\backend\dto\response\DashboardSummaryResponse$MonthlyTrend.class
 com\finance\backend\controller\TransactionController.class
 com\finance\backend\dto\response\UserResponse$UserResponseBuilder.class
+com\finance\backend\config\CorsConfig.class
 com\finance\backend\controller\DashboardController.class
 com\finance\backend\dto\response\TransactionResponse$TransactionResponseBuilder.class
 com\finance\backend\dto\response\TransactionResponse.class
