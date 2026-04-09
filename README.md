@@ -69,9 +69,9 @@ Three users are created automatically when the app starts:
 
 | Email                  | Password | Role |
 |------------------------|---|---|
-| admin@financeapp.com   | admin123 | ADMIN |
-| analyst@financeapp.com | analyst123 | ANALYST |
-| viewer@financeapp.com  | viewer123 | VIEWER |
+| admin@finance.com   | admin123 | ADMIN |
+| analyst@finance.com | analyst123 | ANALYST |
+| viewer@finance.com  | viewer123 | VIEWER |
 
 Login first to get a token, then use that token in the Authorization header for everything else.
 
